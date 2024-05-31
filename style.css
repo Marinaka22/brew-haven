@@ -1,0 +1,84 @@
+/*slector {
+	property: value;
+}*/
+
+body {
+	background-image: url(teacup.jpg);
+	background-size: cover;
+	}
+
+head {
+	color: orange;
+}
+
+h2 {
+	color: green;
+}
+
+strong {
+	color: green;
+}
+
+ h1 {
+	color: green; 
+	text-align: center;
+	border: 5px solid rgba(255,133,43,0.5);
+	cursor: pointer;	
+}
+
+ul, li {
+	color:  rgba(255,133,43)
+}
+
+
+header {
+	line-height: 30px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 100%;
+	font-family:'Handlee', cursive;
+	
+}
+
+
+header
+.webtext{
+	text-align: center;
+	border: 3px dashed rgba(255,133,43,0.5);
+	color: green;
+		background: rgba(250,209,145,0.3) ;
+		background-size:  cover;
+		}	
+
+
+ 
+p { font-size: 20px;
+
+}
+
+
+span{
+	font-size: 2em;
+} 
+
+
+.active {
+	 color:  rgba(255,133,43);
+}
+
+
+p {
+    color: black;
+}
+
+
+
+#div1 {
+	color:  orange
+}
+
+footer{
+	clear: both;
+	text-align: center;
+	color: green;
+}
