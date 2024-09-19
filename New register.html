@@ -2,9 +2,7 @@
 <html lang="en">
 	<head>
 		<link rel="stylesheet" type="text/css" href="style3.css">
-		<p><a href= "index.html" style="color:green;">Home</a></p>
 		
-	
 		<meta charset="UTF-8" />
 		<meta
 			name="viewport"
@@ -65,10 +63,11 @@
 				cursor: pointer;
 				width: 100%;
 				font-size: 16px;
+				margin-bottom: 10px;
 			}
 		</style>
-	</head>
 
+		</head>
 	<body>
 		<div class="main">
 			<h2>Registration Form</h2>
@@ -125,33 +124,24 @@
 					required
 				/>
 
-
-				<label for="gender"
-					>Gender:</label
-				>
-				<select
-					id="gender"
-					name="gender"
-					required
-				>
-					<option value="male">
-						Male
-					</option>
-					<option value="female">
-						Female
-					</option>
-					<option value="other">
-						Other
-					</option>
-				</select>
-
 				<button type="submit">
 					Submit
 				</button>
+				<button onclick="goBack()">Go Back</button>
+			
+			<script> 
+					function goBack() { 
+					  window.history.back(); 
+					} 
+					</script> 
 			</form>
+			
+			
 			<nav>
-		</div>
-
+		</div> 
 		</body>
+			
 	</body>
+		
+	
 </html>
